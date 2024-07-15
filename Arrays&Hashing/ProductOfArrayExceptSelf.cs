@@ -15,7 +15,7 @@
 // Input: nums = [-1,1,0,-3,3]
 // Output: [0,0,9,0,0]
 
-public class Solution {
+public class Solution9{
     public int[] ProductExceptSelf(int[] nums) {
         int prefix = 1, postfix = 1;
         int[] res = new int[nums.Length];        

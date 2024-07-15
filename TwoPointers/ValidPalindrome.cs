@@ -22,7 +22,7 @@
 // Since an empty string reads the same forward and backward, it is a palindrome.
 
 using System.Text;
-public class Solution9{
+public class Solution10{
     public bool IsPalindrome(string s) {
         
         s = s.ToLower();
