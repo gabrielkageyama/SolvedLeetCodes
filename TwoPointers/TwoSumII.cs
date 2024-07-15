@@ -24,7 +24,7 @@
 // Output: [1,2]
 // Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We return [1, 2].
 
-public class Solution {
+public class Solution11{
     public int[] TwoSum(int[] numbers, int target) { // time: O(n^2) | space: O(1)
         var result = new int[2];
         for(int i = 0; i < numbers.Length; i++){
